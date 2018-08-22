@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.music_now {
+    width: 100%;
+    height: 45px;
+    background-color:#97c89a;
+    border-top: 2px solid #97c89a;
+    border-bottom: 2px solid #97c89a;
+}
+
+#now {
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.loading {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+}
+
+#start_time {
+    width: 100px;
+    height: 36px;
+    position: relative;
+    z-index: 2;
+    float: left;
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: #97c89a;
+    text-align: center;
+    padding-top: 9px;
+    background-color: white;
+    border-right: 2px solid #97c89a;
+}
+
+#img_loading {
+    position: absolute;
+    z-index: 1;
+    margin-top: -1286px;
+}
+
+#end_time {
+    width: 100px;
+    height: 36px;
+    position: relative;
+    z-index: 2;
+    float: right;
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: #97c89a;
+    text-align: center;
+    padding-top: 9px;
+    background-color: white;
+    border-left: 2px solid #97c89a;
+}
+
+.music_bar {
+    width: 100%;
+    height: 60px;
+    background-color: #97c89a;
+}
+
+img {
+    cursor: pointer;
+}
+
+#pos {
+    position: absolute;
+}
+
+.abc {
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.center {
+    width: 175px;
+    margin: auto;
+}
+
+
+
+section {
+    width: 481px;
+    height: 1000px;
+    margin: auto;
+    border-right: 2px solid #97c89a;
+    border-left: 2px solid #97c89a;
+}
+
+.playlist {
+    width: 100%;
+    height: 60px;
+    background-color: #97c89a;
+}
+
+.playlist h1 {
+    font-family: Century Gothic;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+}
+
+#music {
+    height: 75px;
+    border-bottom: 2px solid #97c89a;
+    cursor: pointer;
+}
+
+#music p {
+    font-family: Century Gothic;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 26px;
+}
+
+.hover {
+    background-color: #97c89a;
+}
+
+.hover p {
+    color: white;
+}

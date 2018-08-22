@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio PLayer</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="music_now">
+            <p id="now">Now playing: nothing</p>
+        </div>
+        <div class="loading">
+            <div id="start_time">0:00</div>
+            <img id="img_loading" src="img/loading.png" alt="loading...">
+            <div id="end_time">0:00</div>
+        </div>
+        <div class="music_bar">
+            <div class="center">
+                <img id="left" class="abc" src="img/left_arrow.png" alt="left_arrow">
+                <img id="pos" src="img/play.png" alt="play">
+                <img id="stop" src="img/stop.png" alt="stop">
+                <img id="right" class="abc" src="img/right_arrow.png" alt="right_arrow">
+            </div>
+        </div>
+    </header>
+    
+    <section>
+        <div class="playlist">
+            <h1>Playlist</h1>
+        </div>
+
+        <div id="music" onclick="play0(this);"> <p>1 Kaleo - Way Down We Go</p> </div>
+        <div id="music" onclick="play0(this);"> <p>2 Train - Shake Up Christmas</p> </div>
+        <div id="music" onclick="play0(this);"> <p>3 Two Feet - Go Fuck Yourself Original Mix</p> </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
