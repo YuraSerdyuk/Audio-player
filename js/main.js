@@ -20,6 +20,7 @@ function play0(number) {
         var audioFileUrl = musics[num];
 
         console.log(musics[num]);
+        var num = num;
         var context = new (window.AudioContext || window.webkitAudioContext)();
 
         
@@ -83,24 +84,24 @@ function play0(number) {
                     document.getElementById("start_time").innerText = "0:00";
                     document.getElementById("end_time").innerText = "0:00";
 
-                    var num1 = num - 1;
+                    var num1 = --num;
                     console.log(num1)
-                    play0(num1);
+                    play(num1);
                 }
 
                 document.getElementById('right').addEventListener("click", right);
                 function right() {
                     buffer.stop(0);
-                    document.getElementById('pos' ).style.display = '';
+                    document.getElementById('pos').style.display = '';
                     clearInterval(stopwatch);
                     document.getElementById('now').innerHTML = "Now playing: nothing";
                     number.classList.remove("hover");
                     document.getElementById("start_time").innerText = "0:00";
                     document.getElementById("end_time").innerText = "0:00";
 
-                    var num1 = num + 1;
+                    var num1 = ++num;
                     console.log(num1)
-                    play0(num1);
+                    play(num1);
                 }
 
 
