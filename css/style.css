@@ -115,41 +115,13 @@ section {
     padding-top: 9px;
 }
 
-#music1 {
+#music {
     height: 75px;
     border-bottom: 2px solid #97c89a;
     cursor: pointer;
 }
 
-#music2 {
-    height: 75px;
-    border-bottom: 2px solid #97c89a;
-    cursor: pointer;
-}
-
-#music3 {
-    height: 75px;
-    border-bottom: 2px solid #97c89a;
-    cursor: pointer;
-}
-
-#music1 p {
-    font-family: Century Gothic;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 26px;
-}
-
-#music2 p {
-    font-family: Century Gothic;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 26px;
-}
-
-#music3 p {
+#music p {
     font-family: Century Gothic;
     font-size: 18px;
     font-weight: 400;
